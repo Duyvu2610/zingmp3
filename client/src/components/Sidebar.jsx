@@ -126,7 +126,7 @@ function Sidebar() {
         </nav>
         <div className="h-[1px] relative after:content-[''] after:border-t-2 after:border-border-primary after:absolute after:left-6 after:right-6 after:top-0"></div>
 
-        <div className=" overflow-x-hidden overflow-y-scroll w-full max-h-[500px]">
+        <div className=" overflow-x-hidden overflow-y-scroll w-full max-h-[300px]">
           <nav className="mt-4">
             <ul>
               {navbar2.map((e) => (
