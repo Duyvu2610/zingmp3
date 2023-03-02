@@ -7,7 +7,7 @@ const port = process.env.PORT || 8888;
 
 // ZingMp3Router
 const ZingMp3Router = require("./routers/api/ZingRouter");
-app.use("/api", ZingMp3Router);
+app.use("/api", cors({ origin: "*" }), ZingMp3Router);
 
 // Page Error
 app.get("*", (req, res) => {
